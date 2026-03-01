@@ -1,32 +1,33 @@
-#ifndef ListH
+п»ї#ifndef ListH
 #define ListH
 
 #include "Employee.h"
 #include <string>
 
-
-struct Node {
+struct Node
+{
     Employee data;
-    Node* next;
+    Node *next;
 };
 
-class List {
+class List
+{
 private:
-    Node* head;
+    Node *head;
 
 public:
     List();
 
-    void add(Employee e);               // добавить сотрудника
-    bool remove(String fio);            // удалить по ФИО
-    Employee* find(String fio);         // найти по ФИО
+    void add(Employee e);       // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+    bool remove(String fio);    // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ
+    Employee *find(String fio); // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ
 
-    String showAll();                   // показать весь список
-    String byDepartment(int dep);       // фильтр по отделу
-    String byExperience(int years);     // фильтр по стажу
+    String showAll();               // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+    String byDepartment(int dep);   // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+    String byExperience(int years); // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 
-    void saveToFile(String filename);   // сохранить в файл
-    void loadFromFile(String filename); // загрузить из файла
+    void saveToFile(String filename);   // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ
+    void loadFromFile(String filename); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 };
 
 #endif

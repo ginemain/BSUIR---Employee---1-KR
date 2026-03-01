@@ -1,4 +1,4 @@
-#ifndef Unit1H
+﻿#ifndef Unit1H
 #define Unit1H
 //---------------------------------------------------------------------------
 #include <System.Classes.hpp>
@@ -10,8 +10,8 @@
 //---------------------------------------------------------------------------
 class TForm1 : public TForm
 {
-__published:	// IDE-managed Components
-	TEdit *EditFIO;
+	__published : // IDE-managed Components
+				  TEdit *EditFIO;
 	TEdit *EditDepartment;
 	TEdit *EditPosition;
 	TDateTimePicker *DatePicker;
@@ -29,20 +29,20 @@ __published:	// IDE-managed Components
 	TButton *BtnLoad;
 	TMemo *Memo1;
 
-    void __fastcall BtnAddClick(TObject *Sender);
-    void __fastcall BtnShowAllClick(TObject *Sender);
-    void __fastcall BtnFindClick(TObject *Sender);
-    void __fastcall BtnDepartmentClick(TObject *Sender);
-    void __fastcall BtnExperienceClick(TObject *Sender);
-    void __fastcall BtnDeleteClick(TObject *Sender);
-    void __fastcall BtnSaveClick(TObject *Sender);
-    void __fastcall BtnLoadClick(TObject *Sender);
+	void __fastcall BtnAddClick(TObject *Sender);
+	void __fastcall BtnShowAllClick(TObject *Sender);
+	void __fastcall BtnFindClick(TObject *Sender);
+	void __fastcall BtnDepartmentClick(TObject *Sender);
+	void __fastcall BtnExperienceClick(TObject *Sender);
+	void __fastcall BtnDeleteClick(TObject *Sender);
+	void __fastcall BtnSaveClick(TObject *Sender);
+	void __fastcall BtnLoadClick(TObject *Sender);
 
 private:
-    List employees;
+	List employees;
 
 public:
-    __fastcall TForm1(TComponent* Owner);
+	__fastcall TForm1(TComponent *Owner);
 };
 //---------------------------------------------------------------------------
 extern PACKAGE TForm1 *Form1;

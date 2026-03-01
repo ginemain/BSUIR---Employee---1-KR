@@ -1,9 +1,10 @@
-#ifndef EmployeeH
+п»ї#ifndef EmployeeH
 #define EmployeeH
 
 #include <System.hpp>
 
-class Employee {
+class Employee
+{
 public:
     String fio;
     int department;
@@ -13,7 +14,7 @@ public:
     Employee();
     Employee(String f, int d, String p, TDate date);
 
-    int getExperience(); // стаж в годах
+    int getExperience(); // пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ
 };
 
 #endif
