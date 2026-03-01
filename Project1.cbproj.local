@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.953,=D:\RAD C++ Builder\Employee\List.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.946,=D:\RAD C++ Builder\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.869,D:\RAD C++ Builder\Unit1.cpp=D:\RAD C++ Builder\Employee\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.869,D:\RAD C++ Builder\Unit1.dfm=D:\RAD C++ Builder\Employee\Unit1.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.453,D:\RAD C++ Builder\Project1.cbproj=D:\RAD C++ Builder\Employee\Project1.cbproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.869,D:\RAD C++ Builder\Unit1.h=D:\RAD C++ Builder\Employee\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.869,D:\RAD C++ Builder\Employee\Unit1.h=D:\RAD C++ Builder\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.869,D:\RAD C++ Builder\Employee\Unit1.cpp=D:\RAD C++ Builder\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.439,D:\RAD C++ Builder\Employee\Project1PCH1.h=D:\RAD C++ Builder\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.869,D:\RAD C++ Builder\Employee\Unit1.dfm=D:\RAD C++ Builder\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.953,=D:\RAD C++ Builder\Employee\List.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.894,=D:\RAD C++ Builder\Employee\Employee.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.938,=D:\RAD C++ Builder\Employee\List.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.453,D:\RAD C++ Builder\Employee\Project1.cbproj=D:\RAD C++ Builder\Project1.cbproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.912,=D:\RAD C++ Builder\Employee\Employee.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.439,D:\RAD C++ Builder\Project1PCH1.h=D:\RAD C++ Builder\Employee\Project1PCH1.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.706,=D:\RAD C++ Builder\Project1PCH1.h</Transaction>
   </Transactions>
 </BorlandProject>
